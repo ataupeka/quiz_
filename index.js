@@ -10,7 +10,7 @@ buttonOne.addEventListener('click', mrBig);
 buttonTwo.addEventListener('click', aiDen);
 
 function mrBig() {
-    image.setAttribute('src', '1.jpg');
+    image.setAttribute('src', '../assets/1.jpg');
     text.innerHTML = 'ОНИ ПОЖЕНЯТСЯ?';
     buttonOne.innerHTML = 'ДА, НО НЕ СРАЗУ';
     buttonTwo.innerHTML = 'НИКОГДА';
@@ -20,21 +20,21 @@ function mrBig() {
 }
 
 function wedding() {
-    image.setAttribute('src', '2.jpg');
+    image.setAttribute('src', '../assets/2.jpg');
     text.innerHTML = 'ОНИ ПОЖЕНЯТСЯ И БУДУТ СЧАСТЛИВЫ, НО У НИХ НЕ БУДЕТ ДЕТЕЙ';
     buttonOne.style = 'display: none';
     buttonTwo.style = 'display: none';
 }
 
 function neverMarried() {
-    image.setAttribute('src', '3.jpg');
+    image.setAttribute('src', '../assets/3.jpg');
     text.innerHTML = 'ОН ЕЁ БРОСИТ У АЛТАРЯ';
     buttonOne.style = 'display: none';
     buttonTwo.style = 'display: none';
 }
 
 function aiDen() {
-    image.setAttribute('src', '4.jpg');
+    image.setAttribute('src', '../assets/4.jpg');
     text.innerHTML = 'ОНИ БУДУТ СЧАСТЛИВЫ?';
     buttonOne.innerHTML = 'ДА';
     buttonTwo.innerHTML = 'НЕТ';
@@ -44,14 +44,14 @@ function aiDen() {
 }
 
 function happy() {
-    image.setAttribute('src', '5.jpg');
+    image.setAttribute('src', '../assets/5.jpg');
     text.innerHTML = 'ДА И У НИХ РОДИТСЯ РЕБЁНОК';
     buttonOne.style = 'display: none';
     buttonTwo.style = 'display: none';
 }
 
 function unhappy() {
-    image.setAttribute('src', '6.jpg');
+    image.setAttribute('src', '../assets/6.jpg');
     text.innerHTML = 'НЕТ ОНИ РАЗОЙДУТСЯ ИЗ_ЗА ИЗМЕНЫ КЕРРИ';
     buttonOne.style = 'display: none';
     buttonTwo.style = 'display: none';
